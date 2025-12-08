@@ -22,7 +22,7 @@ This README provides step-by-step instructions to install, configure, and enable
 Clone the project repository to your local machine:
 
 ```bash
-git clone https://github.com/Justice/tice.git
+git clone https://github.com/JusticeBrains/tice.git
 ```
 
 Navigate to the project directory:
