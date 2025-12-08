@@ -17,6 +17,51 @@ This README provides step-by-step instructions to install, configure, and enable
 
 ## Installation Steps
 
+### Clone the Repository
+
+Clone the project repository to your local machine:
+
+```bash
+git clone https://github.com/Justice/tice.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd tice
+```
+
+### Make the Setup Script Executable
+
+Make the initial setup script executable:
+
+```bash
+chmod +x initial_setup.sh
+```
+
+### Run the Setup Script
+
+Execute the initial setup script to install PostgreSQL 16 and all related dependencies:
+
+```bash
+./initial_setup.sh
+```
+
+This script will automatically:
+- Update system packages
+- Install PostgreSQL 16
+- Install required dependencies and extensions
+- Create necessary directories and permissions
+- Configure initial PostgreSQL settings
+
+Wait for the script to complete. You should see a success message when finished.
+
+---
+
+## Manual Configuration Steps
+
+After the initial setup completes, proceed with the following manual configuration steps:
+
 ### 1. Verify PostgreSQL Version
 
 Check that PostgreSQL 16 is installed and running:
@@ -403,6 +448,6 @@ If you encounter issues:
 
 ---
 
-**Last Updated:** December 2024  
+**Last Updated:** December 2025
 **PostgreSQL Version:** 16.x  
 **Ubuntu Version:** 22.04 LTS (or equivalent)
